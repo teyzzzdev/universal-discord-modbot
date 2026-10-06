@@ -1,0 +1,22 @@
+{
+  "log_channel_id": 0,
+  "antispam": {
+    "enabled": true,
+    "max_messages": 5,
+    "per_seconds": 6,
+    "max_mentions": 5,
+    "block_links": true,
+    "mute_seconds": 300,
+    "kick_after_strikes": 3
+  },
+  "antiraid": {
+    "enabled": true,
+    "joins": 8,
+    "per_seconds": 20,
+    "lockdown_seconds": 120
+  },
+  "captcha": {
+    "enabled": true,
+    "timeout_seconds": 90
+  }
+}
